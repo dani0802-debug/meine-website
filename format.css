@@ -1,0 +1,43 @@
+/* DATEI: format.css */
+
+
+h1 {
+text-align: center;
+background-color: red;
+}
+
+
+h2 {
+text-align: center;
+background-color: red;
+margin-top: 100px;
+}
+
+
+
+body { 
+background-color: grey;
+}
+
+table { 
+font-size: 25px;
+border: 2px solid red;
+border-collapse: collapse;
+text-align: center;
+margin: 0 auto;
+}
+
+td, th {
+border 2px solid red;
+padding: 5px 25px;
+}
+
+.bilder {
+display: flex;
+justify-content: center;
+gap: 15px;
+position: relative;
+top: 25px;
+flex-wrap: wrap;
+
+}
